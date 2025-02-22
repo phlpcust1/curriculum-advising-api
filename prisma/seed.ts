@@ -26,14 +26,14 @@ async function main() {
     },
   });
 
-  await prisma.curriculum.create({
+  /*await prisma.curriculum.create({
     data: {
       cmoName: 'KT',
       code: 'KT',
       effectivity: '1st sem 2024',
       rev: 50,
     },
-  });
+  });*/
 
   const programs = [
     {
